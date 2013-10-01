@@ -1,0 +1,25 @@
+body {
+	font-family: helvetica, sans-serif;
+}
+
+#top_container {
+	background: red;
+	height: 400px;
+}
+
+#nav_bar {
+	background: green;
+	z-index: 102;
+	height: 100px;
+	width: 100%;
+}
+
+#container_offset {
+	background: yellow;
+	height: 1200px;
+}
+
+.fixed-to-top {
+	position: fixed;
+	top: 0px;
+}
